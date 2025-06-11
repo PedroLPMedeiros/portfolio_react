@@ -17,7 +17,7 @@ export const Navbar = () => {
 
     useEffect(() => {
         const handleScroll = () => {
-            setIsScrolled(window.screenY > 10);
+            setIsScrolled(window.scrollY > 10);
         }
 
         window.addEventListener("scroll", handleScroll);
@@ -29,7 +29,7 @@ export const Navbar = () => {
     )}>
 
         <div className="container flex items-center justify-between">
-            <a className="text-xl font-bold text-primary flex items-center" href="#home">
+            <a className="text-xl font-bold text-primary flex items-center">
                 <span className="relative z-10">
                     Portfólio de <span className="text-glow text-foreground"> Pedro Medeiros</span> 
                 </span>

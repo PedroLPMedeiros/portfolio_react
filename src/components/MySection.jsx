@@ -1,7 +1,7 @@
 import { ArrowDown } from "lucide-react"
 
 export const MySection = () => {
-    return <section id="#hero" 
+    return <section id="home" 
     className="relative min-h-screen flex flex-col items-center justify-center px-4">
 
         <div className="container max-w-4xl max-auto text-center z-10">
@@ -20,7 +20,7 @@ export const MySection = () => {
                 <div>
                     <a href="#projects" 
                     className="cosmic-button opacity-0 animate-fade-in-delay-3">
-                        Olha só meu trabalho &#10024;
+                        Olha só o meu trabalho &#10024;
                     </a>
                 </div>
             </div>
