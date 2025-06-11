@@ -7,8 +7,11 @@ export const Footer = () => {
         <p className="text-sm text-muted-foreground mx-auto">
             &copy; {new Date().getFullYear()}, Pedro Medeiros, todos os direitos reservados.
         </p>
-        <a href="#home">
-            <ArrowUp/>
+        <a 
+        href="#home"
+        className="p-2 rounded-full bg-primary/10 hover:bg-primary/20 text-primary transition-colors"
+        >
+            <ArrowUp size={25}/>
         </a>
     </footer>
 )}
