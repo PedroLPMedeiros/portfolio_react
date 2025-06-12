@@ -6,7 +6,7 @@ Nele, há algumas seções principais para me conhecer melhor, desde sobre algun
 
 A seguir, você poderá ver algumas imagens do meu site, assim como o link para o mesmo.
 
-Link: https://portfolio-react-aifkg1ca1-pedro-medeiros-projects-f2440013.vercel.app/
+Link: https://portfolio-react-one-gamma.vercel.app/
 
 Intro do site: 
 
