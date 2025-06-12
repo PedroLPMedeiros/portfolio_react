@@ -26,7 +26,7 @@ export const AboutMe = () => {
                             Entre em contato
                         </a>
 
-                        <a href="" className="px-6 py-2 rounded-full border border-primary text-primary 
+                        <a href="/curriculo_PedroMedeiros (1).pdf" target="_blank" className="px-6 py-2 rounded-full border border-primary text-primary 
                         hover:bg-primary/10 transition-colors duration-300">
                             {" "}
                             Meu Currículo
