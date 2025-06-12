@@ -18,12 +18,12 @@ const skills = [
     {name: "VSCode", level: 90, category: "tools"},
 ];
 
-const categories = ["all", "frontend", "backend", "tools"]
+const categories = ["todos", "frontend", "backend", "tools"]
 
 export const SkillsSection = () =>{
-    const [activeCategory, setActiveCategory] = useState("all");
+    const [activeCategory, setActiveCategory] = useState("todos");
 
-    const filteredSkills = skills.filter((skill) => activeCategory === "all" || skill.category === activeCategory
+    const filteredSkills = skills.filter((skill) => activeCategory === "todos" || skill.category === activeCategory
     );
 
     return (<section id="skills" 
